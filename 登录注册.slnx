@@ -1,0 +1,27 @@
+<Solution>
+  <Project Path="数据层/数据层.csproj" Id="1e8098d2-e7b8-46af-ad50-00374c800525" />
+  <Project Path="表示层/" Type="Website" DisplayName="表示层">
+    <BuildType Project="Debug" />
+    <Properties Name="WebsiteProperties">
+      <Property Name="Debug.AspNetCompiler.Debug" Value="&quot;True&quot;" />
+      <Property Name="Debug.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
+      <Property Name="Debug.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
+      <Property Name="Debug.AspNetCompiler.PhysicalPath" Value="&quot;表示层\&quot;" />
+      <Property Name="Debug.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_60392\&quot;" />
+      <Property Name="Debug.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
+      <Property Name="Debug.AspNetCompiler.VirtualPath" Value="&quot;/localhost_60392&quot;" />
+      <Property Name="DefaultWebSiteLanguage" Value="&quot;Visual C#&quot;" />
+      <Property Name="ProjectReferences" Value="&quot;{40424458-584a-4379-93ee-b4e179770161}|逻辑层.dll;{1E8098D2-E7B8-46AF-AD50-00374C800525}|数据层.dll;&quot;" />
+      <Property Name="Release.AspNetCompiler.Debug" Value="&quot;False&quot;" />
+      <Property Name="Release.AspNetCompiler.FixedNames" Value="&quot;false&quot;" />
+      <Property Name="Release.AspNetCompiler.ForceOverwrite" Value="&quot;true&quot;" />
+      <Property Name="Release.AspNetCompiler.PhysicalPath" Value="&quot;表示层\&quot;" />
+      <Property Name="Release.AspNetCompiler.TargetPath" Value="&quot;PrecompiledWeb\localhost_60392\&quot;" />
+      <Property Name="Release.AspNetCompiler.Updateable" Value="&quot;true&quot;" />
+      <Property Name="Release.AspNetCompiler.VirtualPath" Value="&quot;/localhost_60392&quot;" />
+      <Property Name="TargetFrameworkMoniker" Value="&quot;.NETFramework,Version%3Dv4.7.2&quot;" />
+      <Property Name="VWDPort" Value="&quot;60392&quot;" />
+    </Properties>
+  </Project>
+  <Project Path="逻辑层/逻辑层.csproj" Id="40424458-584a-4379-93ee-b4e179770161" />
+</Solution>

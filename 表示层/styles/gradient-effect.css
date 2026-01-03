@@ -1,0 +1,22 @@
+/* 鼠标跟踪渐变效果样式 */
+.gradient-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #f0f2f5 0%, #ffffff 100%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.gradient-light {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(74, 144, 226, 0.2) 0%, rgba(74, 144, 226, 0.1) 40%, transparent 70%);
+    filter: blur(40px);
+    pointer-events: none;
+    z-index: -1;
+}
